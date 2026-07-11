@@ -138,6 +138,3 @@ npm run build
 - Add NDCG, MRR, recall, precision, CTR, zero-result, and answer faithfulness dashboards.
 - Add relevance regression checks in CI.
 
-## Resume Bullet
-
-Built an enterprise AI search platform with a React relevance cockpit and FastAPI backend for hybrid retrieval, BM25/vector ranking, rerank explanations, knowledge graph boosts, query analytics, relevance evaluation, Dockerized services, CI, and GitHub Pages deployment.
