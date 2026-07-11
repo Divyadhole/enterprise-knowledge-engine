@@ -4,7 +4,7 @@
   <rect width="1280" height="720" fill="#F4F8FB"/>
   <rect x="52" y="42" width="1176" height="636" rx="18" fill="#FFFFFF" stroke="#D6E2EA"/>
   <text x="84" y="100" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="16">Portfolio Project 5</text>
-  <text x="84" y="150" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">AI Search & Enterprise Knowledge Engine</text>
+  <text x="84" y="150" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">AI Search &amp; Enterprise Knowledge Engine</text>
   <text x="84" y="184" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="18">Hybrid retrieval, BM25, vector search, reranking, graph boosts, analytics, and relevance evaluation.</text>
   <rect x="84" y="230" width="238" height="96" rx="10" fill="#F8FBFD" stroke="#D6E2EA"/>
   <text x="108" y="265" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14">Indexed Docs</text>
