@@ -1,0 +1,48 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Enterprise Knowledge Engine architecture</title>
+  <desc id="desc">Architecture diagram showing enterprise sources, ingestion, hybrid index, reranking, knowledge graph, query understanding, and analytics.</desc>
+  <rect width="1280" height="640" fill="#F4F8FB"/>
+  <text x="64" y="74" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">Search Architecture</text>
+  <text x="64" y="108" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="18">A production-style retrieval pipeline for enterprise knowledge systems.</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2L10 6L2 10" fill="none" stroke="#5C6675" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="64" y="184" width="174" height="92" rx="10" fill="#FFFFFF" stroke="#D6E2EA"/>
+    <text x="94" y="224" fill="#111827" font-size="19" font-weight="800">Sources</text>
+    <text x="94" y="252" fill="#5C6675" font-size="15">Docs, Slack, GitHub</text>
+    <rect x="300" y="184" width="174" height="92" rx="10" fill="#FFFFFF" stroke="#D6E2EA"/>
+    <text x="330" y="224" fill="#111827" font-size="19" font-weight="800">Ingestion</text>
+    <text x="330" y="252" fill="#5C6675" font-size="15">Chunk, ACL, metadata</text>
+    <rect x="536" y="184" width="174" height="92" rx="10" fill="#FFFFFF" stroke="#D6E2EA"/>
+    <text x="566" y="224" fill="#111827" font-size="19" font-weight="800">Hybrid Index</text>
+    <text x="566" y="252" fill="#5C6675" font-size="15">BM25 + vectors</text>
+    <rect x="772" y="184" width="174" height="92" rx="10" fill="#FFFFFF" stroke="#D6E2EA"/>
+    <text x="802" y="224" fill="#111827" font-size="19" font-weight="800">Reranker</text>
+    <text x="802" y="252" fill="#5C6675" font-size="15">Cross encoder</text>
+    <rect x="1008" y="184" width="174" height="92" rx="10" fill="#FFFFFF" stroke="#D6E2EA"/>
+    <text x="1038" y="224" fill="#111827" font-size="19" font-weight="800">Answer</text>
+    <text x="1038" y="252" fill="#5C6675" font-size="15">Cited response</text>
+    <line x1="238" y1="230" x2="286" y2="230" stroke="#5C6675" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="474" y1="230" x2="522" y2="230" stroke="#5C6675" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="710" y1="230" x2="758" y2="230" stroke="#5C6675" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="946" y1="230" x2="994" y2="230" stroke="#5C6675" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="178" y="390" width="210" height="96" rx="10" fill="#FFFFFF" stroke="#D6E2EA"/>
+    <text x="210" y="430" fill="#0F6680" font-size="19" font-weight="800">Query Understanding</text>
+    <text x="210" y="458" fill="#5C6675" font-size="15">Intent, expansion, filters</text>
+    <rect x="534" y="390" width="210" height="96" rx="10" fill="#FFFFFF" stroke="#D6E2EA"/>
+    <text x="566" y="430" fill="#0F6680" font-size="19" font-weight="800">Knowledge Graph</text>
+    <text x="566" y="458" fill="#5C6675" font-size="15">Entity boosts, authority</text>
+    <rect x="890" y="390" width="210" height="96" rx="10" fill="#FFFFFF" stroke="#D6E2EA"/>
+    <text x="922" y="430" fill="#0F6680" font-size="19" font-weight="800">Analytics + Eval</text>
+    <text x="922" y="458" fill="#5C6675" font-size="15">NDCG, MRR, CTR</text>
+    <line x1="623" y1="276" x2="283" y2="376" stroke="#5C6675" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="859" y1="276" x2="639" y2="376" stroke="#5C6675" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="1095" y1="276" x2="995" y2="376" stroke="#5C6675" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="64" y="540" width="1118" height="48" rx="10" fill="#111827"/>
+    <text x="94" y="571" fill="#FFFFFF" font-size="16" font-weight="700">Roadmap:</text>
+    <text x="180" y="571" fill="#EAF4F8" font-size="16">Elasticsearch · Qdrant · ColBERT · personalization · permissions · search quality CI</text>
+  </g>
+</svg>

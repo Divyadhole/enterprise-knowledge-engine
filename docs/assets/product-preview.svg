@@ -1,0 +1,50 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Enterprise Knowledge Engine dashboard preview</title>
+  <desc id="desc">A search relevance dashboard with query workbench, hybrid search results, score explanations, analytics, and knowledge graph signals.</desc>
+  <rect width="1280" height="720" fill="#F4F8FB"/>
+  <rect x="52" y="42" width="1176" height="636" rx="18" fill="#FFFFFF" stroke="#D6E2EA"/>
+  <text x="84" y="100" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="16">Portfolio Project 5</text>
+  <text x="84" y="150" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">AI Search & Enterprise Knowledge Engine</text>
+  <text x="84" y="184" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="18">Hybrid retrieval, BM25, vector search, reranking, graph boosts, analytics, and relevance evaluation.</text>
+  <rect x="84" y="230" width="238" height="96" rx="10" fill="#F8FBFD" stroke="#D6E2EA"/>
+  <text x="108" y="265" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14">Indexed Docs</text>
+  <text x="108" y="304" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">48,210</text>
+  <rect x="346" y="230" width="238" height="96" rx="10" fill="#F8FBFD" stroke="#D6E2EA"/>
+  <text x="370" y="265" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14">Sources</text>
+  <text x="370" y="304" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">5</text>
+  <rect x="608" y="230" width="238" height="96" rx="10" fill="#F8FBFD" stroke="#D6E2EA"/>
+  <text x="632" y="265" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14">Latency</text>
+  <text x="632" y="304" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">142 ms</text>
+  <rect x="870" y="230" width="238" height="96" rx="10" fill="#F8FBFD" stroke="#D6E2EA"/>
+  <text x="894" y="265" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14">Relevance</text>
+  <text x="894" y="304" fill="#0F6680" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800">89%</text>
+
+  <rect x="84" y="366" width="330" height="226" rx="10" fill="#FFFFFF" stroke="#D6E2EA"/>
+  <text x="108" y="402" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Search Workbench</text>
+  <rect x="108" y="426" width="258" height="54" rx="8" fill="#FBFDFE" stroke="#CBD9E2"/>
+  <text x="126" y="458" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14">billing launch risks and SOC2...</text>
+  <rect x="108" y="500" width="160" height="38" rx="8" fill="#111827"/>
+  <text x="132" y="524" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Run Hybrid Search</text>
+
+  <rect x="444" y="366" width="378" height="226" rx="10" fill="#FFFFFF" stroke="#D6E2EA"/>
+  <text x="468" y="402" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Ranked Evidence</text>
+  <rect x="468" y="424" width="310" height="56" rx="8" fill="#F8FBFD" stroke="#D6E2EA"/>
+  <text x="488" y="448" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Enterprise Billing Launch Plan</text>
+  <text x="488" y="470" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="12">BM25 + vector + rerank + graph boost</text>
+  <rect x="468" y="502" width="220" height="8" rx="4" fill="#E1EAF0"/>
+  <rect x="468" y="502" width="194" height="8" rx="4" fill="#0F6680"/>
+  <rect x="468" y="530" width="220" height="8" rx="4" fill="#E1EAF0"/>
+  <rect x="468" y="530" width="184" height="8" rx="4" fill="#0F6680"/>
+
+  <rect x="852" y="366" width="256" height="226" rx="10" fill="#FFFFFF" stroke="#D6E2EA"/>
+  <text x="876" y="402" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800">Quality</text>
+  <text x="876" y="436" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14">NDCG@5</text>
+  <rect x="876" y="448" width="180" height="8" rx="4" fill="#E1EAF0"/>
+  <rect x="876" y="448" width="160" height="8" rx="4" fill="#0F6680"/>
+  <text x="876" y="486" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14">MRR</text>
+  <rect x="876" y="498" width="180" height="8" rx="4" fill="#E1EAF0"/>
+  <rect x="876" y="498" width="151" height="8" rx="4" fill="#0F6680"/>
+  <text x="876" y="536" fill="#5C6675" font-family="Inter, Arial, sans-serif" font-size="14">Recall@10</text>
+  <rect x="876" y="548" width="180" height="8" rx="4" fill="#E1EAF0"/>
+  <rect x="876" y="548" width="166" height="8" rx="4" fill="#0F6680"/>
+</svg>

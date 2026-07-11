@@ -1,0 +1,57 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      APP_ENV: local
+      POSTGRES_URL: postgresql://knowledge:knowledge@postgres:5432/knowledge
+      QDRANT_URL: http://qdrant:6333
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+    ports:
+      - "8300:8300"
+    depends_on:
+      - postgres
+      - qdrant
+      - elasticsearch
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "5177:80"
+    depends_on:
+      - backend
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: knowledge
+      POSTGRES_USER: knowledge
+      POSTGRES_PASSWORD: knowledge
+    ports:
+      - "5435:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  qdrant:
+    image: qdrant/qdrant:v1.10.1
+    ports:
+      - "6335:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: "-Xms512m -Xmx512m"
+    ports:
+      - "9201:9200"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+
+volumes:
+  postgres_data:
+  qdrant_data:
+  elasticsearch_data:
